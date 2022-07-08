@@ -4,7 +4,7 @@
  * @Author: 张鹏
  * @Date: 2022-07-08 15:48:09
  * @LastEditors: 张鹏
- * @LastEditTime: 2022-07-08 15:49:48
+ * @LastEditTime: 2022-07-08 15:54:35
 -->
 
 # 汉字转拼音
@@ -14,15 +14,15 @@
 ## 安装
 
 ```base
-npm install js-pinyin
+npm install @springsheep/zp-pinyin
 
-import pinyin from 'js-pinyin'
+import pinyin from '@springsheep/zp-pinyin'
 ```
 
 ## 使用示例
 
 ```js
-let pinyin = require('js-pinyin')
+let pinyin = require('@springsheep/zp-pinyin')
 
 pinyin.setOptions({ checkPolyphone: false, charCase: 0 })
 

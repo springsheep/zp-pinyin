@@ -21,7 +21,7 @@
    },
    "repository": {
       "type": "git",
-      "url": "git://github.com/waterchestnut/pinyin.git"
+      "url": "https://github.com/springsheep/zp-pinyin.git"
    },
    "license": "MIT License"
 }
